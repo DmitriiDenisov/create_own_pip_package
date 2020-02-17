@@ -1,6 +1,6 @@
 # Creating pip package
 
-### Minimum instructions
+## Minimum instructions
 
 1. Create an account in https://pypi.org/
 
@@ -53,3 +53,7 @@ __For every next twine uploading we need to specify which wheel package we are g
 `twine upload dist/newhello-0.0.1-py3-none-any.whl`
 
 8. Example can be found in `helloworld_v1` folder, just rename name in `setup.py` and follow 6, 7
+
+## Source and details:
+
+https://www.youtube.com/watch?v=QgZ7qv4Cd0Y
