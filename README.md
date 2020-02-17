@@ -46,6 +46,7 @@ This will create some additional files, including `dist/newhello-0.1-py3-none-an
 7. Execute:
 
 ``` twine upload dist/* ```
+If twine is not installed, then execute `pip install twine`
 
 For every next twine uploading we need to specify which wheel package we are going to upload. For example: 
 
