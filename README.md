@@ -36,3 +36,17 @@ setup(
       )
 
 ```
+
+6. Execute: 
+
+``` python3 setup.py bdist_wheel ```
+
+This will create some additional files, including `dist/newhello-0.1-py3-none-any.whl`
+
+7. Execute:
+
+``` twine upload dist/* ```
+
+For every next twine uploading we need to specify which wheel package we are going to upload. For example: 
+
+`twine upload dist/newhello-0.0.1-py3-none-any.whl`
