@@ -51,3 +51,5 @@ If twine is not installed, then execute `pip install twine`
 For every next twine uploading we need to specify which wheel package we are going to upload. For example: 
 
 `twine upload dist/newhello-0.0.1-py3-none-any.whl`
+
+8. Example can be found in `helloworld_v1` folder, just rename name in `setup.py` and follow 6, 7
