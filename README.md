@@ -8,7 +8,8 @@
 
 3. Create such structure of files:
 
-- my_package
--- setup.py
--- src
---- my_package.py
+my_package
+|-- setup.py
+|-- src
+|   |-- my_package.py
+
